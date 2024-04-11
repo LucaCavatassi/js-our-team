@@ -46,13 +46,13 @@ for (i = 0; i < teamMembers.length; i++) {
     const curTeamMember = teamMembers[i]
     console.log(curTeamMember);
     membersDOM.innerHTML += 
-    ` 
+    `
     <div class="member">
-        <div class="full-name">${curTeamMember.name} ${curTeamMember.surname}</div>
-
-        <div class="role">${curTeamMember.role}</div>
-
-        <img src="./img/${curTeamMember.image}" class="img">
+        <div class="img"><img src="./img/${curTeamMember.image}"></div>
+        <div class="info">
+            <div class="full-name">${curTeamMember.name} ${curTeamMember.surname}</div>
+            <div class="role">${curTeamMember.role}</div>
+        </div>
     </div>
     `
 }

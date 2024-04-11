@@ -24,19 +24,22 @@ Barbara Ramos	Graphic Designer	    barbara-ramos-graphic-designer.jpg
 
 ## Svolgimento 
 
-# M1 
+### M1 
 - [X] Creo oggetto con chiavi - Nome, Ruolo, Foto
 - [X] Metto gli oggetti in un array
 
-# M2 
+### M2 
 - [X] Creo un ciclo for che mi prende uno ad uno gli elementi dell'array
 - [X] Per ogni elemento singolo stampo name, surname, role, image
 
-# M3
+### M3
 - [X] Creo 1 Div All Members
 - [X] Riprendo il ciclo for che mi prente uno ad uno gli elementi dell'object array
 - [X] Assegno una variabile curElem all'elemento corrente
 - [X] Al div all members metto inner html tutta la struttura html con i div etc..
 
-# Bonus 1 
+### B1 
 - [X] Uso il tag img e quando arrivo a src= aggiungo ${curElem.immagine}
+
+### B2
+- [X] Vediamo se mi ricordo come funziona CSS

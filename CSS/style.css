@@ -1,5 +1,73 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+body {
+    background-color: bisque;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SPECIFIC */
+
+/* HEADER */
+header {
+    background-color: white;
+    height: 80px;
+}
+.text {
+    padding-top: 20px;
+    text-align: center;
+}
+.sub-title{
+    padding-top: 5px;
+    font-family: sans-serif;
+}
+/* ALL CARDS CONTAINER */
+.all-members {
+    padding-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 10px;
+    justify-content: center;
+}
+/* CARDS */
+.member {
+    width: calc(80% / 3 - 20px);
+}
+
+/* text-info */
+.info {
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border-end-end-radius: 25px;
+}
+
+/* name */
+.full-name {
+    font-weight: bold;
+}
+/* role */
+.role {
+    font-size: 0.8rem;
+    padding-top: 0.2rem;
+    font-family: sans-serif;
+
+}
+
