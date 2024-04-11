@@ -1,3 +1,4 @@
+// ARRAY
 let teamMembers = [
     {
         name: "Wayne",
@@ -37,8 +38,21 @@ let teamMembers = [
         image: "barbara-ramos-graphic-designer.jpg",
     },
 ];
-// console.log(teamMembers[0].role);
+
+// DOM ELEM
+let membersDOM = document.querySelector(".all-members");
 
 for (i = 0; i < teamMembers.length; i++) {
-    console.log(teamMembers[i].name, teamMembers[i].surname, teamMembers[i].role, teamMembers[i].image);
+    const curTeamMember = teamMembers[i]
+    console.log(curTeamMember);
+    membersDOM.innerHTML += 
+    ` 
+    <div class="member">
+        <div class="full-name">${curTeamMember.name} ${curTeamMember.surname}</div>
+
+        <div class="role">${curTeamMember.role}</div>
+
+        <img src="./img/${curTeamMember.image}" class="img">
+    </div>
+    `
 }

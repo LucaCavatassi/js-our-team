@@ -33,6 +33,10 @@ Barbara Ramos	Graphic Designer	    barbara-ramos-graphic-designer.jpg
 - [X] Per ogni elemento singolo stampo name, surname, role, image
 
 # M3
-- [X] Creo 3 div uno per ogni key, nell'HTML
-- [ ] Li richiamo in javascript assegnandogli una variabile
-- [ ] Stampo nell'innertext il valore assegnato
+- [X] Creo 1 Div All Members
+- [X] Riprendo il ciclo for che mi prente uno ad uno gli elementi dell'object array
+- [X] Assegno una variabile curElem all'elemento corrente
+- [X] Al div all members metto inner html tutta la struttura html con i div etc..
+
+# Bonus 1 
+- [X] Uso il tag img e quando arrivo a src= aggiungo ${curElem.immagine}
