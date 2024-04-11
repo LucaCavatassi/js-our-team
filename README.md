@@ -25,4 +25,5 @@ Barbara Ramos	Graphic Designer	    barbara-ramos-graphic-designer.jpg
 ## Svolgimento 
 
 # M1 
-- [ ] Creo oggetto con chiavi - Nome, Ruolo, Foto
+- [X] Creo oggetto con chiavi - Nome, Ruolo, Foto
+- [X] Metto gli oggetti in un array
