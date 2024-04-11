@@ -27,3 +27,12 @@ Barbara Ramos	Graphic Designer	    barbara-ramos-graphic-designer.jpg
 # M1 
 - [X] Creo oggetto con chiavi - Nome, Ruolo, Foto
 - [X] Metto gli oggetti in un array
+
+# M2 
+- [X] Creo un ciclo for che mi prende uno ad uno gli elementi dell'array
+- [X] Per ogni elemento singolo stampo name, surname, role, image
+
+# M3
+- [X] Creo 3 div uno per ogni key, nell'HTML
+- [ ] Li richiamo in javascript assegnandogli una variabile
+- [ ] Stampo nell'innertext il valore assegnato

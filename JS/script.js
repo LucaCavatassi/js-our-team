@@ -37,5 +37,8 @@ let teamMembers = [
         image: "barbara-ramos-graphic-designer.jpg",
     },
 ];
+// console.log(teamMembers[0].role);
 
-console.log(teamMembers[0].role);
+for (i = 0; i < teamMembers.length; i++) {
+    console.log(teamMembers[i].name, teamMembers[i].surname, teamMembers[i].role, teamMembers[i].image);
+}
